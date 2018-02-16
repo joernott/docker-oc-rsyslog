@@ -6,7 +6,7 @@ source /tmp/install/functions.sh
 
 install_software rsyslog logrotate
 
-cat >/ect/rsyslog.conf <<EOF
+cat >/etc/rsyslog.conf <<EOF
 # rsyslog configuration file
 
 #### MODULES ####
