@@ -11,3 +11,5 @@ RUN /tmp/install/oc-rsyslog.sh
 
 EXPOSE 514
 EXPOSE 514/udp
+
+ENTRYPOINT /entrypoint
