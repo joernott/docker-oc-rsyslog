@@ -27,6 +27,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 $IncludeConfig /etc/rsyslog.d/*.conf
 $OmitLocalLogging on
 $IMJournalStateFile imjournal.state
+$CreateDirs on
 
 #### RULES ####
 $template perHostMessages,"/var/log/%HOSTNAME%/messages"
